@@ -1,0 +1,311 @@
+*{
+      margin: 0;
+}
+
+.index{
+      display: block;
+      height:60px;
+      width: 100%;
+      background-color: rgba(207,242,245,1);
+      position: fixed;
+}
+
+
+a{
+      text-decoration: none;
+      color:black;
+}
+li{
+      list-style: none;
+      display: inline;
+      float: right;
+}
+.index p{
+      height:20px;
+      font-size: 25px;
+      text-align: left;
+      margin-left: 15%;
+      float: left;
+      margin-top: -70px;
+      }
+.subject{
+      display: none;
+/*      color: red;*/
+/*      position: fixed;*/
+/*float: right;*/
+/*      display: block;*/
+/*      width:100px;*/
+/*      height: 200px;*/
+/*      background-color: black;*/
+/*      margin-left: 200px;*/
+}
+
+.indexes{
+      width:300px;
+      height: 400px;
+      /*background-color: white;*/
+      float: right;
+      margin-top: 100px;
+      margin-left: 78%;
+      position: fixed;
+}
+.indexes_left{ width:200px;
+               height: 400px;
+               background-color: gray;
+               float: left;
+      text-align: center;
+      display: none;
+
+
+             }
+
+.indexes_left a{display:inline-block;width: 40px;height:40px;border-radius: 50%;
+      border: 1px solid green; }
+.pp a{
+      width: 50px;
+      height: 20px;
+      border: 1px solid black;
+      border-radius: 10px;
+      font-size: smaller;
+}
+.left_head{width: 200px;
+      height: 80px;
+
+      background-color: gainsboro;
+}
+.indexes_log{
+      width: 200px;
+      height: 100px;
+    border: 1px solid greenyellow;
+      position: fixed;
+      margin-top: 300px;
+      background-color: white;
+      display: none;
+ }
+.left_img{width: 60px;
+       height: 60px;
+      border-radius: 50%;
+      background-color: gainsboro;
+      margin-left: 35%;
+}
+
+.indexes_right{
+            width:100px;
+            height: 400px;
+            float: right;
+            background-color: gainsboro;}
+div[class="items"]{color: white}
+div[class="items"]:hover{background-color: black;}
+
+.indexes-1,.indexes-2,.indexes-3,.indexes-4{
+      width:40px;
+      height: 40px;
+      background-color: gray;
+      border: 1px  solid black;
+      border-radius: 10px;
+      /*background-image: url("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2204389533,1412196791&fm=26&gp=0.jpg");*/
+      background-size:40px 40px;
+      margin-left: 10px;
+}
+.index-img{
+      display: block;
+      width:80px;
+      height: 80px;
+
+      background-color: gray;
+      margin-left: 7%;
+      margin-top: 20px;
+      background-size: 80px 80px;
+      border-radius: 50%;
+      z-index: 999;
+}
+
+
+.index ul{
+      width:680px;
+      height: 50px;
+      float:right;
+      margin-top: -100px;
+      margin-right: 10%;
+}
+.index ul li{
+      display: inline-block;
+      width:100px;
+      height: 40px;
+      background-color: rgba(207,242,245,1);
+      text-align: center;
+      padding-top: 20px;
+      color:black;
+      font-size: large;
+}
+.index ul li:hover{
+     background-color: black;
+      color:white;
+}
+.index ul li a:hover{
+      color:white;
+}
+.indexes-1-2{
+      width:40px;
+      height: 40px;
+      background-color: gray;
+      border-radius: 10px;
+      opacity: 0.5;
+}
+o{
+      display: inline-block;
+      width:100px;
+      height:7px;
+      background-color: black;
+      margin-bottom: 3px;
+}
+.text{
+      width:1200px;
+      height: 1200px;
+      background-color: rgba(234,232,233,1);
+      margin-left: 70px;
+ }
+.text1{
+      color: white;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: center;
+      width:400px;
+      height: 100px;
+      background-color: gray;
+      margin-left: 5%;
+      border-radius: 5px;
+}
+.text2{
+      color: white;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: center;
+      width:400px;
+      height: 100px;
+      background-color: gray;
+      margin-left: 40%;
+      border-radius: 5px;
+}
+.text3{
+      color: white;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: center;
+      width:400px;
+      height: 100px;
+      background-color: gray;
+      margin-left: 5%;
+      border-radius: 5px;
+}
+.text4{
+      color: white;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: center;
+      width:400px;
+      height: 100px;
+      background-color: gray;
+      margin-left: 40%;
+      border-radius: 5px;
+}
+.more{
+      text-align: center;
+      font-size: 30px;
+      font-family: "楷体";
+}
+
+.end{
+      display: block;
+      height:150px;
+      background-color:rgba(234,232,233,1) ;
+      text-align: center;
+}
+.end a{
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #3e82bf;
+      border-radius: 50%;
+}
+.luxun{
+      text-align: center;
+      font-size: 15px;
+      font-family: "楷体";
+}
+
+.login{
+      width: 400px;
+      height: 600px;
+      margin-left: 40%;
+      margin-top: 15%;
+}
+.login-1{
+
+      width: 300px;
+      height: 50px;
+      border:1px dotted red ;
+      text-align: center;
+}
+.login-1-1
+{
+      float:left;
+      width: 140px;
+      height: 50px;
+      border:1px dotted black ;
+      text-align: center;
+}
+.login-1-2
+{
+      float:right;
+      width: 140px;
+      height: 50px;
+      border:1px dotted black ;
+      text-align: center;
+}
+.vlog{
+      height:250px;
+      background-color: gray;
+      padding-top: 10px;
+
+}
+.vlog-1
+ {
+      text-align: center;
+       float: left;
+      margin-left: 120px;
+       height:230px;
+       width: 120px;
+       border: 1px dotted black;
+      background-color: rgba(234,232,233,1);
+ }
+.vlog-2
+{
+      text-align: center;
+      float: right;
+      margin-right: 120px;
+      height:230px;
+      width: 120px;
+      border: 1px dotted black;
+      background-color: rgba(234,232,233,1);
+}
+.vlog-3
+{
+      text-align: center;
+      float: left;
+      margin-left: 120px;
+      height:230px;
+      width: 120px;
+      border: 1px dotted black;
+      background-color: rgba(234,232,233,1);
+}
+.vlog-4
+{
+      text-align: center;
+      float: right;
+      margin-right: 120px;
+      height:230px;
+      width: 120px;
+      border: 1px dotted black;
+      background-color: rgba(234,232,233,1);
+}
